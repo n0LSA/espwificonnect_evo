@@ -1,0 +1,41 @@
+{
+  "name": "espwificonnect_evo",
+  "version": "0.0.1",
+  "license": "MIT",
+  "description": "espwificonnect_evo",
+  "keywords": "tools",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/AdriLighting/espwificonnect_evo.git"
+  },
+  "authors":
+  [
+    {
+      "name": "Grellard Adrien",
+      "email": "grellard.adrien@gmail.com",
+      "maintainer": true
+    }
+  ],
+  "dependencies": [
+    {
+        "owner": "Benoit Blanchon",
+        "name": "ArduinoJson",
+        "version": "https://github.com/bblanchon/ArduinoJson.git"
+    },  
+    {
+        "owner": "Ivan Seidel",
+        "name": "LinkedList",
+        "version": "https://github.com/AdriLighting/LinkedList.git"
+    },
+    {
+        "owner": "Hristo Gochkov",
+        "name": "ESP Async WebServer",
+        "version": "https://github.com/me-no-dev/ESPAsyncWebServer.git"
+    }
+  ],
+  
+  "frameworks": "arduino",
+  "platforms": "espressif8266",
+  "headers": "wificonnectevo.h"
+}
